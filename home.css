@@ -12,11 +12,31 @@ body {
     color: white;
 }
 
+
 #page1{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #48cae4, #343a40);
+    background: linear-gradient(to bottom, #0096c7, #343a40);
+    /* position: relative; */
+}
+
+#page1 a{
+text-decoration: none;
+}
+
+#navbar1{
+    /* display: flex; */
+    background: linear-gradient(to bottom ,#343a40 ,#0096c7);
+    /* background-color:#0096c7; */
+    overflow-x: hidden;
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #343a40, #a7c957)
 }
