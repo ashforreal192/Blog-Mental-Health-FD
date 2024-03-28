@@ -31,7 +31,31 @@ function loco(){
 loco()
 
 
+gsap.from("#page1 #segment1", {
+  x: -600,
+  y: -600,
+  duration: 1.5,
+  // delay: 0,
+  // backgroundColor: "#c8b6ff",
+  // rotate: 360,
+  scale: 0,
+  opacity: 0,
+  scrub: 2,
+  // stagger: 3
+})
 
+gsap.from("#page1 #segment2", {
+  x: 600,
+  y: 600,
+  duration: 1.5,
+  // delay: 0,
+  // backgroundColor: "#c8b6ff",
+  // rotate: 360,
+  scale: 0,
+  opacity: 0,
+  scrub: 2,
+  // stagger: 3
+})
 
 
 gsap.to("#nav", {

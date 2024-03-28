@@ -29,12 +29,17 @@ body {
     align-items: center;
     background: linear-gradient(to bottom, black, grey);
     /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 0; */
+    overflow: hidden;
 }
 
-#page1 p{
+#page1 div{
     margin-bottom: 10vh;
     font-size: 1.5vw;
     line-height: 6vh;
+    margin-bottom: 0;
 }
 
 #nav2{
