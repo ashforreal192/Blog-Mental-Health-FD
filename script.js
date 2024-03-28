@@ -48,3 +48,41 @@ gsap.to("#nav", {
         scrub: 1
     }
 })
+
+gsap.from("#page2 #para1", {
+    backgroundColor: "#343a40",
+    duration: 1,
+    // scale: 0,
+    opacity: 0,
+    x: -500,
+    stagger: 2.5,
+    // delay: 0.5,
+    // height: "12vh",
+    scrollTrigger: {
+        trigger: "#page2 h1",
+        scroller: "#main",
+        // markers: true,
+        // start: "top -10%",
+        // end: "top -30%",
+        scrub: 1.5
+    }
+})
+
+gsap.from("#page2 #para2", {
+    backgroundColor: "#343a40",
+    duration: 1,
+    opacity: 0,
+    // scale: 0,
+    x: 500,
+    stagger: 2.5,
+    // delay: 0.5,
+    // height: "12vh",
+    scrollTrigger: {
+        trigger: "#page2 h1",
+        scroller: "#main",
+        // markers: true,
+        // start: "top -10%",
+        // end: "top -30%",
+        scrub: 1.5
+    }
+})
